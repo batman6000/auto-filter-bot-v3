@@ -134,7 +134,8 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("🔎 Search Here (Click)", switch_inline_query_current_chat=''),[
+                InlineKeyboardButton("🔎 Search Here (Click)", switch_inline_query_current_chat='')
+                ],[
                 InlineKeyboardButton("🤖 Bot Updates Channel @films_searies 🤖", url="https://t.me/films_searies")
                 ]]
             )
