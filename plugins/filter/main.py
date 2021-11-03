@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/films_searies')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -301,7 +301,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/films_searies')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -325,7 +325,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/films_searies')
                     ]
                     ]
                 
@@ -357,7 +357,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/films_searies')
                     ]
                     ]
                 
