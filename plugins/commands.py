@@ -103,7 +103,7 @@ async def start(bot, message):
                         InlineKeyboardButton('Bot Updates', url='https://t.me/films_searies')
                     ],
                     [
-                        InlineKeyboardButton('👨‍💻 Developer @Film_Pm_bot 📢', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('👨‍💻 Bot Updates Channel @films_searies 📢', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -136,7 +136,7 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("🔎 Search Here (Click)", switch_inline_query_current_chat='')
                 ],[
-                InlineKeyboardButton("🤖 Bot Updates Channel @films_searies 🤖", url="https://t.me/films_searies")
+                InlineKeyboardButton("🤖 Admins @Film_Pm_bot 🤖", url="https://t.me/Film_Pm_bot")
                 ]]
             )
         )
@@ -349,7 +349,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
+            InlineKeyboardButton('👨‍💻 Bot Updates Channel', url=f'{DEV_CHANNEL}'),
             InlineKeyboardButton('Channel 📢', url=f'https://t.me/films_searies')
         ]
         ]
