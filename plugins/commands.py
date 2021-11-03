@@ -100,10 +100,10 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/BotzListBot')
+                        InlineKeyboardButton('Bot Updates', url='https://t.me/films_searies')
                     ],
                     [
-                        InlineKeyboardButton('👨‍💻 Developer @ZauteKm 📢', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('👨‍💻 Developer @Film_Pm_bot 📢', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -134,13 +134,8 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("🔎 Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("Go Inline 🗣️", switch_inline_query='')
-                ],[
-                InlineKeyboardButton("🖲️ Commands", callback_data="help"),
-                InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
-                ],[
-                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/BotzListBot")
+                InlineKeyboardButton("🔎 Search Here (Click)", switch_inline_query_current_chat=''),[
+                InlineKeyboardButton("🤖 Bot Updates Channel @films_searies 🤖", url="https://t.me/films_searies")
                 ]]
             )
         )
@@ -354,7 +349,7 @@ async def bot_info(bot, message):
         [
             
             InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-            InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+            InlineKeyboardButton('Channel 📢', url=f'https://t.me/films_searies')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
