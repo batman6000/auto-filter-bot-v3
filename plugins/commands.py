@@ -136,6 +136,8 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("🔎 Search Here (Click)", switch_inline_query_current_chat='')
                 ],[
+                InlineKeyboardButton("❓ How To Use Me ❓", url="https://t.me/MTSLUpdates/159")
+                ],[
                 InlineKeyboardButton("🤖 Contact Admins 🤖", url="https://t.me/Film_Pm_bot")
                 ]]
             )
