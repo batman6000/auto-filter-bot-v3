@@ -136,7 +136,7 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("🔎 Search Here (Click)", switch_inline_query_current_chat='')
                 ],[
-                InlineKeyboardButton("🤖 Admins @Film_Pm_bot 🤖", url="https://t.me/Film_Pm_bot")
+                InlineKeyboardButton("🤖 Contact Admins 🤖", url="https://t.me/Film_Pm_bot")
                 ]]
             )
         )
