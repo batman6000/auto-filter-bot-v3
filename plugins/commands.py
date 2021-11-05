@@ -100,10 +100,10 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Bot Updates', url='https://t.me/films_searies')
+                        InlineKeyboardButton('Bot Updates', url='https://t.me/MTSLUpdates')
                     ],
                     [
-                        InlineKeyboardButton('👨‍💻 Bot Updates Channel @films_searies 📢', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('👨‍💻 Bot Updates Channel @MTSLUpdates 📢', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -350,7 +350,7 @@ async def bot_info(bot, message):
         [
             
             InlineKeyboardButton('👨‍💻 Bot Updates Channel', url=f'{DEV_CHANNEL}'),
-            InlineKeyboardButton('Channel 📢', url=f'https://t.me/films_searies')
+            InlineKeyboardButton('Channel 📢', url=f'https://t.me/MTSLUpdates')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
