@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('👨‍💻 Bot Updates', url=f'{DEV_CHANNEL}'),
-                    InlineKeyboardButton('Admin Support 📢', url=f'https://t.me/Film_Pm_bot')
+                    InlineKeyboardButton('How To Use Me 📢', url=f'https://t.me/MTSLUpdates/159')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -301,7 +301,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('👨‍💻 Bot Updates', url=f'{DEV_CHANNEL}'),
-                    InlineKeyboardButton('Admin Support 📢', url=f'https://t.me/Film_Pm_bot')
+                    InlineKeyboardButton('How To Use Me 📢', url=f'https://t.me/MTSLUpdates/159')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -325,7 +325,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('👨‍💻 Bot Updates', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Admin Support 📢', url=f'https://t.me/Film_Pm_bot')
+                        InlineKeyboardButton('How To Use Me 📢', url=f'https://t.me/MTSLUpdates/159')
                     ]
                     ]
                 
@@ -357,7 +357,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('👨‍💻 Bot Updates', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Admin Support 📢', url=f'https://t.me/Film_Pm_bot')
+                        InlineKeyboardButton('How To Use Me 📢', url=f'https://t.me/MTSLUpdates/159')
                     ]
                     ]
                 
