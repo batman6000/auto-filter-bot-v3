@@ -134,7 +134,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("🔎 Search Here (Click)", switch_inline_query_current_chat='')
+                InlineKeyboardButton("🔎 Search Tv Shows (Click)", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("❓ How To Use Me ❓", url="https://t.me/MTSLUpdates/159")
                 ],[
