@@ -136,10 +136,14 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("🔎 Search Tv Shows (Click)", switch_inline_query_current_chat='')
                 ],[
+                InlineKeyboardButton("➕ Add me to Your Group ➕", url="https://t.me/MTSLRobot?startgroup=true")
+                ],[
+                InlineKeyboardButton("🔗 Join Updates Channel 🔗", url="https://t.me/MTSLUpdates")
+                ],[
                 InlineKeyboardButton("❓ How To Use Me ❓", url="https://t.me/MTSLUpdates/159"),
                 InlineKeyboardButton("🤖 Contact Admins 🤖", url="https://t.me/Film_Pm_bot")
                 ],[
-                InlineKeyboardButton("➕ Add me to Your Group ➕", url="https://t.me/MTSLRobot?startgroup=true")
+                
                 ]]
             )
         )
