@@ -139,6 +139,7 @@ async def start(bot, message):
                 InlineKeyboardButton("❓ How To Use Me ❓", url="https://t.me/MTSLUpdates/159")
                 ],[
                 InlineKeyboardButton("🤖 Contact Admins 🤖", url="https://t.me/Film_Pm_bot")
+                InlineKeyboardButton("➕ Add me to Your Group ➕", url="https://t.me/MTSLRobot?startgroup=true")
                 ]]
             )
         )
