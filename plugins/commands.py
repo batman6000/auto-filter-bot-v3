@@ -99,11 +99,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Bot Updates', url='https://t.me/MTSLUpdates')
+                        InlineKeyboardButton('How to use me', url='https://t.me/MTSLUpdates/159')
                     ],
                     [
-                        InlineKeyboardButton('👨‍💻 Bot Updates Channel @MTSLUpdates 📢', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('👨‍💻 Bot Updates 📢', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
